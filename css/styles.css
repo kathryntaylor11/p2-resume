@@ -70,7 +70,7 @@ h2 {
 .work {
 	background: none repeat scroll 0% 0% #000;
 	width: 405px;
-	height: 350px;
+	height: 400px;
 	padding: 10px 10px;
 	border-radius: 20px;
 	text-align: center;
@@ -78,6 +78,8 @@ h2 {
 	color: #fff;
 	float: left;
 }
+
+
 
 .work h2 {
 	font-family: 'Megrim', cursive;
@@ -109,7 +111,7 @@ h2 {
 .skills {
 	background: none repeat scroll 0% 0% #000;
 	width: 405px;
-	height: 350px;
+	height: 400px;
 	padding: 10px 10px;
 	border-radius: 20px;
 	text-align: center;
@@ -145,7 +147,7 @@ h2 {
 .edu {
 	background: none repeat scroll 0% 0% #000;
 	width: 405px;
-	height: 350px;
+	height: 250px;
 	padding: 10px 10px;
 	border-radius: 20px;
 	text-align: center;
@@ -162,7 +164,7 @@ h2 {
 .contact {
 	background: none repeat scroll 0% 0% #000;
 	width: 405px;
-	height: 350px;
+	height: 250px;
 	border-radius: 20px;
 	text-align: center;
 	color: #fff;
@@ -236,14 +238,22 @@ ul.nav a:active {
 
 /* Social Media Icons from http://robby-designs.deviantart.com/art/Socialcircles-Free-social-icons-circular-347921678 */
 
-/* Icon Styling */
 
-.contact p {
-	background-image: url('../img/facebook32.png');
-	background-image: center no-repeat;
+/* P styling */
+
+.skills ul li {
+	text-align: justify;
+	letter-spacing: .05em;
+	padding: 10px 10px;
 }
 
+ul li {
+	text-decoration: none;
+}
 
+.work h2 p {
+	padding: 5px 1px;
+}
 
 
 
