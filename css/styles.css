@@ -65,16 +65,16 @@ h2 {
 	margin: 13px 0px 12px;
 }
 
-/* About */
+/* Work */
 
 .work {
 	background: none repeat scroll 0% 0% #000;
 	width: 405px;
 	height: 350px;
 	padding: 10px 10px;
-	border-radius: 20px 0px;
+	border-radius: 20px;
 	text-align: center;
-	margin: 20px 20px 0px;
+	margin: 10px 20px 0px;
 	color: #fff;
 	float: left;
 }
@@ -86,16 +86,16 @@ h2 {
 
 
 
-/* Major */
+/* Skills */
 
 .skills {
 	background: none repeat scroll 0% 0% #000;
 	width: 405px;
 	height: 350px;
 	padding: 10px 10px;
-	border-radius: 0px 20px;
+	border-radius: 20px;
 	text-align: center;
-	margin: 20px 20px 0px;
+	margin: 10px 20px 0px;
 	color: #fff;
 	float: right;
 }
@@ -105,7 +105,39 @@ h2 {
 	color: #3388dd;
 }
 
+/* Languages */
 
+.lang {
+	background: none repeat scroll 0% 0% #000;
+	width: 100%;
+	border-radius: 0px 0px 20px 20px;
+	text-align: center;
+	color: #fff;
+	float: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.lang h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+/* Resume */
+
+.title {
+	background: none repeat scroll 0% 0% #000;
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+	text-align: center;
+	color: #fff;
+	float: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.title h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
 
 /*  Nav  */
 
